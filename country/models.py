@@ -9,7 +9,7 @@ class Country(models.Model):
     official_languages = models.CharField(max_length=300)
     continent = models.CharField(max_length=100)
     main_cities = models.TextField()
-    climate = models.FloatField()
+    climate = models.TextField()
     currency = models.CharField(max_length=20)
     gdp = models.FloatField()
 
